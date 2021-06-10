@@ -35,5 +35,5 @@ jobs:
       - name: Installing Surge
         run: sudo npm install --global surge
       - name: Deploy Surge
-      - run: surge ./ deekoders-madcatz.surge.sh --token ${{ secrets.SURGE_TOKEN }}
+        run: surge ./ deekoders-madcatz.surge.sh --token ${{ secrets.SURGE_TOKEN }}
           
